@@ -12,11 +12,11 @@ export default {
             { name: 'format-detection', content: 'telephone=no' },
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        ],
-        // script: [{
-        //     src: "assets/js/main.js"
-        // }]
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            ]
+            // script: [{
+            //     src: "assets/js/main.js"
+            // }]
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
@@ -44,14 +44,10 @@ export default {
         '@nuxtjs/axios',
         // https://go.nuxtjs.dev/content
         '@nuxt/content',
-        '@nuxtjs/fontawesome'
     ],
 
-    fontawesome: {
-        icons: {
-            solid: true,
-            brands: true
-        }
+    bootstrapVue: {
+        icons: true
     },
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
     axios: {

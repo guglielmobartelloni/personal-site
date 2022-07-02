@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-6 text-center">
           <nuxt-img
-            src="assets/img/avatar-without-bg.png"
+            src="assets/img/avatar-without-bg-min.png"
             class="rounded-circle avatar-image"
           />
         </div>

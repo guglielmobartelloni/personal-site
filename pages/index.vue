@@ -15,8 +15,8 @@
           </p>
 
           <div class="bottom-icons row">
-            <a class="h2 col-2" href="https://github.com/guglielmobartelloni"><b-icon icon="github"></b-icon></a>
-            <a class="h2 col-2" href="https://www.instagram.com/guglielmo_bartelloni/"><b-icon icon="instagram"></b-icon></a>
+            <a class="h2 col-2 text-dark" href="https://github.com/guglielmobartelloni"><b-icon icon="github"></b-icon></a>
+            <a class="h2 col-2 text-dark" href="https://www.instagram.com/guglielmo_bartelloni/"><b-icon icon="instagram"></b-icon></a>
             <div class="col-2"></div>
             <div class="col-2"></div>
             <div class="col-2"></div>

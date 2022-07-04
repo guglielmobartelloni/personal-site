@@ -2,7 +2,7 @@
   <div>
     <div class="container mt-5">
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center" data-aos="zoom-in">
           <h1 class="display-4">I'm Guglielmo Bartelloni</h1>
           <p class="paragrafo">
             Software Engineer and Music nerd based in Italy.
@@ -22,7 +22,8 @@
           </div>
         </div>
       </div>
-      <div class="row mt-5">
+   
+      <div class="row mt-5" data-aos="fade-up">
         <div class="col-md-6">
           <h1>About me</h1>
           <p id="about" class="font-weight-light">
@@ -45,7 +46,7 @@
         <div class="col"><h1>Tech I use</h1></div>
       </div>
       <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center" data-aos="fade-right">
           <div class="row">
             <div class="col-md-6">
               <img
@@ -89,7 +90,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 justify-content-center">
+        <div class="col-md-6 justify-content-center" data-aos="fade-left">
           <p id="about" class="font-weight-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             nemo facere, labore, quos earum in asperiores a exercitationem

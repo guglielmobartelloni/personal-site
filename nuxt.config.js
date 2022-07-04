@@ -17,6 +17,7 @@ export default {
         // ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', type: 'style/css', href: 'https://unpkg.com/aos@next/dist/aos.css' },
         ],
     },
 
@@ -25,9 +26,15 @@ export default {
         '@/static/assets/css/style.css'
     ],
 
+    purgeCSS: {
+        whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
+    },
+
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
-        { src: '~plugins/vue-audio-player', ssr: false }
+        { src: '~plugins/vue-audio-player', ssr: false },
+        { src: "@/plugins/aos", mode: "client" },
+        { src: "@/plugins/gtag", mode: "client" },
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
